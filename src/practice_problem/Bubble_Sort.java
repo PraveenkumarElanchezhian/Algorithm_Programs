@@ -1,5 +1,5 @@
 package practice_problem;
-
+import org.junit.Test;
 public class Bubble_Sort {
 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Bubble_Sort {
 			System.out.print(i + " ");
 		}
 	}
-
+	@Test
 	static int bubbleSort(int[] arr) {
 		int n = arr.length;
 		int temp = 0;

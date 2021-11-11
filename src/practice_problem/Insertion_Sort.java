@@ -1,5 +1,5 @@
 package practice_problem;
-
+import org.junit.Test;
 public class Insertion_Sort {
 	public static void main(String a[]) {
 		String[] arr = { "Use", "Insertion Sort", "to sort", "the", "word", "in the", "String", "array" };
@@ -16,7 +16,7 @@ public class Insertion_Sort {
 			System.out.print(i + " ");
 		}
 	}
-
+	@Test
 	public static String[] sort_sub(String array[], int f) {
 		String temp = "";
 		for (int i = 0; i < f; i++) {
