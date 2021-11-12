@@ -1,8 +1,7 @@
 package practice_problem;
-
+import org.junit.Test;
 import java.util.Arrays;
 import java.util.Scanner;
-import org.junit.Test;
 public class Anagram {
 	public static void main(String[] args) {
 		Anagram_Detection rv = new Anagram_Detection();
@@ -28,8 +27,7 @@ class Anagram_Detection {
 			Arrays.sort(String1);
 			Arrays.sort(String2);
 
-			String result2 = (Arrays.equals(String1, String2) == true) ? "Both the strings are Anagram"
-					: "Both the strings are not Anagram";
+			String result2 = (Arrays.equals(String1, String2) == true) ? "Both the strings are Anagram" : "Both the strings are not Anagram";
 			System.out.println(result2);
 		}
 	}
